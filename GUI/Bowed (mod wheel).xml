@@ -1,0 +1,118 @@
+<GUI w="775" h="335">
+ 
+	<!-- Background -->
+
+	<StaticImage x="1" y="1" w="773" h="333" image="cello_controls_tab.png" transparent="0"  />
+
+        <!-- Mod wheel knob, for those with no controller or for monitoring position-->
+
+	<StaticText x="9" y="60" w="100" h="20" text="DYNAMICS" color_text="#FFFFFFFF" transparent="1"  />
+
+	<StaticText x="9" y="77" w="100" h="18" text="Mod Wheel (CC1)" color_text="#FFFFFFFF" transparent="1"   />
+	
+	<Knob param="1" x="42" y="100" image="Smallish_b.png" frames="128"  />
+	
+	<!-- Controls - Envelope first-->
+	
+	<StaticText x="9" y="160" w="100" h="20" text="ENVELOPE" color_text="#FFFFFFFF" transparent="1"  />
+
+	<StaticText x="9" y="177" w="100" h="18" text="Attack" color_text="#FFFFFFFF" transparent="1"   />
+	
+	<Knob param="100" x="42" y="200" image="Smallish_b.png" frames="128"  />
+
+	<StaticText x="59" y="177" w="100" h="18" text="Hold" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="101" x="92" y="200" image="Smallish_b.png" frames="128"   />
+
+	<StaticText x="109" y="177" w="100" h="18" text="Decay" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="102" x="142" y="200" image="Smallish_b.png" frames="128"   />
+
+	<StaticText x="159" y="177" w="100" h="18" text="Sustain" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="103" x="192" y="200" image="Smallish_b.png" frames="128"   />
+
+	<StaticText x="209" y="177" w="100" h="18" text="Release" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="104" x="242" y="200" image="Smallish_b.png" frames="128"   />
+
+        <!-- Voicing controls -->
+
+	<StaticText x="359" y="160" w="100" h="20" text="VOICING" color_text="#FFFFFFFF" transparent="1"  />
+
+	<StaticText                x="373"  y="177"  w="120" h="18"  text="Voice	"  font_size="Small" alignment="center" color_text="#FFFFFFFF" transparent="1"   />		
+	<OptionMenu    param="107"  x="388"  y="205"  w="90" h="18"  font_size="Small" alignment="center" color_text="#000000FF"  color_back="#ffffffcc" transparent="0"   >	
+		<OptionItem name="Sustain Poly"		    value="0.0" />
+		<OptionItem name="Sustain Mono"		    value="0.15" />
+		<OptionItem name="Marcato Poly"		    value="0.3" />
+		<OptionItem name="Marcato Mono"		    value="0.45" />
+		<OptionItem name="Staccato Poly"	    value="0.6" />
+		<OptionItem name="Four Sus Poly"	    value="0.75" />
+   		<OptionItem name="Four Sus Mono"	    value="0.83" />
+		<OptionItem name="Eight Sus Poly"	    value="0.92" />
+		<OptionItem name="Eight Sus Mono"	    value="1.0" />	
+	</OptionMenu>	
+
+	<StaticText x="459" y="177" w="100" h="18" text="Width" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="122" x="492" y="200" image="Smallish_b.png" frames="128"   />
+
+	<StaticText x="509" y="177" w="100" h="18" text="Detune" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="123" x="542" y="200" image="Smallish_b.png" frames="128"   />
+
+	<StaticText x="559" y="177" w="100" h="18" text="Glide" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="109" x="592" y="200" image="Smallish_b.png" frames="128"   />
+
+	<StaticText x="609" y="177" w="100" h="18" text="Marcato" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="110" x="642" y="200" image="Smallish_b.png" frames="128"   />
+
+
+	<!-- Vibrato controls -->
+
+	<StaticText x="6" y="240" w="100" h="20" text="VIBRATO" color_text="#FFFFFFFF" transparent="1"  />
+
+	<StaticText x="9" y="257" w="100" h="18" text="Pitch" color_text="#FFFFFFFF" transparent="1"   />
+	
+	<Knob param="111" x="42" y="280" image="Smallish_b.png" frames="128"  />
+
+	<StaticText x="59" y="257" w="100" h="18" text="Volume" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="113" x="92" y="280" image="Smallish_b.png" frames="128"   />
+
+	<StaticText x="109" y="257" w="100" h="18" text="EQ" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="114" x="142" y="280" image="Smallish_b.png" frames="128"   />
+
+	<StaticText x="159" y="257" w="100" h="18" text="Rate" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="112" x="192" y="280" image="Smallish_b.png" frames="128"   />
+
+	<StaticText x="209" y="257" w="100" h="18" text="Delay" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="115" x="242" y="280" image="Smallish_b.png" frames="128"   />
+
+	<StaticText x="259" y="257" w="100" h="18" text="Fade" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="116" x="292" y="280" image="Smallish_b.png" frames="128"   />
+
+	<!-- Humanize controls -->
+
+	<StaticText x="345" y="240" w="100" h="20" text="HUMANIZE" color_text="#FFFFFFFF" transparent="1"  />
+
+	<StaticText x="359" y="257" w="100" h="18" text="Change Rate" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="117" x="392" y="280" image="Smallish_b.png" frames="128"   />
+
+	<StaticText x="409" y="257" w="100" h="18" text="Pitch" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="118" x="442" y="280" image="Smallish_b.png" frames="128"   />
+
+	<StaticText x="459" y="257" w="100" h="18" text="Vibrato" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="119" x="492" y="280" image="Smallish_b.png" frames="128"   />
+
+
+</GUI>                                                                                                                                       

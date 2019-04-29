@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<Key>8A6D9B5FD9E945BED844F13CE2C747FF75FD049CD6EFB6C0441882547C5179EE8756F37BBC10B9C016F54DCC4F7DE0EDA70ADF2A8D39BF4449BE6175FEE899A305230FA5BB21B1B85539CCFE359EC3E35220612767F00A90BFB2248B45221CA183878F22037A76699FE011D459C128DADA33EB6BFCA1D664893C8CED8EC6B97A88EE4D09DFC0FF57D7B351011723909A6F8D72F50BA5E1D9B7B3EE6EAC62C70CB6C5B233B98399E5829748062FB625F3AE1FB41AACDE65C8AA4FFD4A98C317E1576B8B10F81A8AA1AA6AFA51EA45CBAC6170C1CD1121F1574C77084F0AB7E3107E678B198AC4ED813A2D505FBD0924B2A109C8C9DDB655B0CD9EEC9C939B7534</Key>
+<AriaBank id="2508" name="Karoryfer x bigcat cello" vendor="Karoryfer" product="Karoryfer x bigcat cello" version="1000" >
+
+	<Define name="$sample_dir" value="../Samples"/>
+	
+	<!-- branding for Aria Player and sforzando UIs -->
+	<AriaGUI path="GUI/aria_info.xml"  target="*ARIA_INFO" />	
+ 
+	<AriaProgram  name="01- Bowed (velocity layer)"		gui="GUI/Bowed (velocity layer).xml">		<AriaElement  path="Programs/01- Bowed (velocity layer).sfz"/>	</AriaProgram>
+	<AriaProgram  name="02- Bowed (mod wheel)"			gui="GUI/Bowed (mod wheel).xml">			<AriaElement  path="Programs/02- Bowed (mod wheel).sfz"/>		</AriaProgram>
+	<AriaProgram  name="03- Plucked"					gui="GUI/Plucked.xml" >						<AriaElement  path="Programs/03- Plucked.sfz"/>					</AriaProgram>
+ 
+</AriaBank>
